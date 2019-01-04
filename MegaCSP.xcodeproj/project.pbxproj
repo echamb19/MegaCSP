@@ -17,6 +17,9 @@
 		DBC42C0721DFF926002FC609 /* BucketItemCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42C0521DFF926002FC609 /* BucketItemCell.swift */; };
 		DBC42C0921DFF944002FC609 /* AbstractionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42C0821DFF944002FC609 /* AbstractionViewController.swift */; };
 		DBC42C0B21DFF952002FC609 /* AlgorithmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42C0A21DFF952002FC609 /* AlgorithmViewController.swift */; };
+		DBC42C0D21DFFAB6002FC609 /* BucketItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42C0C21DFFAB6002FC609 /* BucketItem.swift */; };
+		DBC42C1021DFFB22002FC609 /* ArtCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42C0E21DFFB22002FC609 /* ArtCell.swift */; };
+		DBC42C1121DFFB22002FC609 /* DrawingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42C0F21DFFB22002FC609 /* DrawingView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +35,9 @@
 		DBC42C0521DFF926002FC609 /* BucketItemCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItemCell.swift; sourceTree = "<group>"; };
 		DBC42C0821DFF944002FC609 /* AbstractionViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AbstractionViewController.swift; sourceTree = "<group>"; };
 		DBC42C0A21DFF952002FC609 /* AlgorithmViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlgorithmViewController.swift; sourceTree = "<group>"; };
+		DBC42C0C21DFFAB6002FC609 /* BucketItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BucketItem.swift; sourceTree = "<group>"; };
+		DBC42C0E21DFFB22002FC609 /* ArtCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArtCell.swift; sourceTree = "<group>"; };
+		DBC42C0F21DFFB22002FC609 /* DrawingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DrawingView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		DBC42BF921DFF7CE002FC609 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				DBC42C0C21DFFAB6002FC609 /* BucketItem.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -92,6 +99,8 @@
 		DBC42BFA21DFF7D5002FC609 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				DBC42C0E21DFFB22002FC609 /* ArtCell.swift */,
+				DBC42C0F21DFFB22002FC609 /* DrawingView.swift */,
 				DBC42BEF21DFF7B3002FC609 /* LaunchScreen.storyboard */,
 				DBC42BEA21DFF7A7002FC609 /* Main.storyboard */,
 			);
@@ -214,11 +223,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DBC42C0D21DFFAB6002FC609 /* BucketItem.swift in Sources */,
 				DBC42C0721DFF926002FC609 /* BucketItemCell.swift in Sources */,
+				DBC42C1021DFFB22002FC609 /* ArtCell.swift in Sources */,
 				DBC42C0221DFF8EA002FC609 /* ArtViewController.swift in Sources */,
 				DBC42C0621DFF926002FC609 /* DataViewController.swift in Sources */,
 				DBC42C0321DFF8EA002FC609 /* ArtCollectionViewController.swift in Sources */,
 				DBC42BE721DFF7A7002FC609 /* AppDelegate.swift in Sources */,
+				DBC42C1121DFFB22002FC609 /* DrawingView.swift in Sources */,
 				DBC42C0B21DFF952002FC609 /* AlgorithmViewController.swift in Sources */,
 				DBC42C0921DFF944002FC609 /* AbstractionViewController.swift in Sources */,
 			);
