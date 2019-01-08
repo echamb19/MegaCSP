@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DB2871FB21E530F500E39C78 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DB2871FA21E530F500E39C78 /* MenuViewController.swift */; };
 		DBC42BE721DFF7A7002FC609 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DBC42BE621DFF7A7002FC609 /* AppDelegate.swift */; };
 		DBC42BEC21DFF7A7002FC609 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DBC42BEA21DFF7A7002FC609 /* Main.storyboard */; };
 		DBC42BEE21DFF7B3002FC609 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DBC42BED21DFF7B3002FC609 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DB2871FA21E530F500E39C78 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		DBC42BE321DFF7A7002FC609 /* MegaCSP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MegaCSP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DBC42BE621DFF7A7002FC609 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DBC42BEB21DFF7A7002FC609 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -110,6 +112,7 @@
 		DBC42BFB21DFF7DF002FC609 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				DB2871FA21E530F500E39C78 /* MenuViewController.swift */,
 				DBC42BFC21DFF7EA002FC609 /* Data */,
 				DBC42BFD21DFF7F0002FC609 /* Creativiity */,
 				DBC42BFF21DFF81F002FC609 /* Absraction */,
@@ -227,6 +230,7 @@
 				DBC42C0721DFF926002FC609 /* BucketItemCell.swift in Sources */,
 				DBC42C1021DFFB22002FC609 /* ArtCell.swift in Sources */,
 				DBC42C0221DFF8EA002FC609 /* ArtViewController.swift in Sources */,
+				DB2871FB21E530F500E39C78 /* MenuViewController.swift in Sources */,
 				DBC42C0621DFF926002FC609 /* DataViewController.swift in Sources */,
 				DBC42C0321DFF8EA002FC609 /* ArtCollectionViewController.swift in Sources */,
 				DBC42BE721DFF7A7002FC609 /* AppDelegate.swift in Sources */,
